@@ -1,0 +1,37 @@
+.initial-view-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.registerBtn {
+  background-color: #3b82f6;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.text-container {
+  align-self: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.meet-up-image {
+  width: 50%;
+  align-self: center;
+}
+.name-heading {
+  color: #2563eb;
+  font-family: 'Roboto';
+}
+.topic {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
